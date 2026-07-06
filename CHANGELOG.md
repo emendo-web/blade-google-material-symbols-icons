@@ -6,6 +6,10 @@ This changelog follows [the Keep a Changelog standard](https://keepachangelog.co
 
 ## [1.1.0](https://github.com/emendo-web/blade-google-material-symbols-icons/compare/1.0.0...1.1.0) (2026-07-06)
 
+### Added
+
+- Prise en charge de Laravel 13 et de PHP 8.5.
+
 ### Changed
 
 - Mise à jour du jeu d'icônes Google Material Symbols vers `@material-symbols/svg-400` 0.45.5 : environ 1 188 nouvelles icônes ajoutées et tracés existants actualisés.
