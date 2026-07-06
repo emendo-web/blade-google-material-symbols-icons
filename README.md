@@ -7,7 +7,7 @@ For a full list of available icons see [the SVG directory](resources/svg) or pre
 ## Requirements
 
 - PHP 8.3 or higher
-- Laravel 11.0 or higher
+- Laravel 11, 12 or 13
 
 ## Installation
 
@@ -24,7 +24,7 @@ Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library. -->
 Blade Google Material Symbols also offers the ability to use features from Blade Icons like default classes, default attributes, etc. If you'd like to configure these, publish the `blade-material-symbols.php` config file:
 
 ```bash
-php artisan vendor:publish --tag=blade-material-symbols
+php artisan vendor:publish --tag=blade-material-symbols-config
 ```
 
 ## Usage
@@ -59,18 +59,24 @@ The sharp icons can be referenced like this:
 <x-gmsi-s-home/>
 ```
 
+The filled version of any icon is available by appending `-fill`:
+
+```blade
+<x-gmsi-o-home-fill/>
+```
+
 ### Raw SVG Icons
 
 If you want to use the raw SVG icons as assets, you can publish them using:
 
 ```bash
-php artisan vendor:publish --tag=blade-google-material-symbols --force
+php artisan vendor:publish --tag=blade-material-symbols --force
 ```
 
 Then use them in your views like:
 
 ```blade
-<img src="{{ asset('vendor/blade-google-material-symbols/o-adjustments.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-material-symbols/o-home.svg') }}" width="10" height="10"/>
 ```
 
 ## Changelog
