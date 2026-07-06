@@ -1,7 +1,6 @@
 {
   "private": true,
   "dependencies": {
-    "@material-symbols/svg-400": "^0.29.1",
-    "heroicons": "^1.0.1"
+    "@material-symbols/svg-400": "^0.29.1"
   }
 }
