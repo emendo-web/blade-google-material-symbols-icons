@@ -2,9 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/emendo-web/blade-google-material-symbols-icons/compare/1.1.0...main)
+## [Unreleased](https://github.com/emendo-web/blade-google-material-symbols-icons/compare/2.0.0...main)
 
-## [1.1.0](https://github.com/emendo-web/blade-google-material-symbols-icons/compare/1.0.0...1.1.0) (2026-07-06)
+## [2.0.0](https://github.com/emendo-web/blade-google-material-symbols-icons/compare/1.0.0...2.0.0) (2026-10-06)
 
 ### Added
 
