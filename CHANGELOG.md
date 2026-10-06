@@ -16,6 +16,7 @@ This changelog follows [the Keep a Changelog standard](https://keepachangelog.co
 
 ### Removed
 
+- Fin de la prise en charge de Laravel 11, qui n'est plus maintenu et dont toutes les versions sont concernées par des failles de sécurité non corrigées.
 - 63 icônes retirées en amont par Google (chacune sur les 3 styles `outlined`/`rounded`/`sharp` et leurs variantes `-fill`). Si vous en utilisez une, remplacez-la avant de mettre à jour.
 
   <details>
